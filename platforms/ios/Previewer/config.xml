@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="" id="com.uniface.client.previewer" ios-CFBundleVersion="" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <name>Previewer</name>
+    <description>This is a scanner app from Uniface for testing and debugging purpose</description>
+    <author email="Mobile@uniface.com" href="http://www.uniface.com">Uniface Mobile Team</author>
+    <preference name="phonegap-version" value="4.1.2" />
+    <preference name="orientation" value="default" />
+    <preference name="fullscreen" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="target-device" value="universal" />
+    <preference name="prerendered-icon" value="false" />
+    <preference name="detect-data-types" value="false" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="deployment-target" value="7" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="BackupWebStorage" value="local" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
+    <preference name="SplashScreen" value="splash" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <access origin="*" subdomains="true" />
+    <allow-intent href="*" />
+    <allow-navigation href="*" />
+    <content src="index.html" />
+    <gap:plugin name="org.apache.cordova.statusbar" />
+    <icon src="icon.png" />
+    <icon gap:density="ldpi" gap:platform="android" src="www/res/icon/android/icon-36-ldpi.png" />
+    <icon gap:density="mdpi" gap:platform="android" src="www/res/icon/android/icon-48-mdpi.png" />
+    <icon gap:density="hdpi" gap:platform="android" src="www/res/icon/android/icon-72-hdpi.png" />
+    <icon gap:density="xhdpi" gap:platform="android" src="www/res/icon/android/icon-96-xhdpi.png" />
+    <icon gap:platform="ios" height="29" src="www/res/icon/ios/icon-29.png" width="29" />
+    <icon gap:platform="ios" height="58" src="www/res/icon/ios/icon-29-2x.png" width="58" />
+    <icon gap:platform="ios" height="40" src="www/res/icon/ios/icon-40.png" width="40" />
+    <icon gap:platform="ios" height="80" src="www/res/icon/ios/icon-40-2x.png" width="80" />
+    <icon gap:platform="ios" height="50" src="www/res/icon/ios/icon-50.png" width="50" />
+    <icon gap:platform="ios" height="100" src="www/res/icon/ios/icon-50-2x.png" width="100" />
+    <icon gap:platform="ios" height="57" src="www/res/icon/ios/icon-57.png" width="57" />
+    <icon gap:platform="ios" height="114" src="www/res/icon/ios/icon-57-2x.png" width="114" />
+    <icon gap:platform="ios" height="60" src="www/res/icon/ios/icon-60.png" width="60" />
+    <icon gap:platform="ios" height="120" src="www/res/icon/ios/icon-60-2x.png" width="120" />
+    <icon gap:platform="ios" height="180" src="www/res/icon/ios/icon-60-3x.png" width="180" />
+    <icon gap:platform="ios" height="72" src="www/res/icon/ios/icon-72.png" width="72" />
+    <icon gap:platform="ios" height="144" src="www/res/icon/ios/icon-72-2x.png" width="144" />
+    <icon gap:platform="ios" height="76" src="www/res/icon/ios/icon-76.png" width="76" />
+    <icon gap:platform="ios" height="152" src="www/res/icon/ios/icon-76-2x.png" width="152" />
+    <icon gap:platform="ios" height="80" src="www/res/icon/ios/icon-80.png" width="80" />
+    <icon gap:platform="ios" height="160" src="www/res/icon/ios/icon-80-2x.png" width="160" />
+    <icon gap:platform="winphone" src="www/res/icon/windows-phone/icon-48.png" />
+    <icon gap:platform="winphone" gap:role="background" src="www/res/icon/windows-phone/icon-173-tile.png" />
+    <gap:splash gap:density="ldpi" gap:platform="android" src="www/res/screen/android/screen-ldpi-portrait.9.png" />
+    <gap:splash gap:density="mdpi" gap:platform="android" src="www/res/screen/android/screen-mdpi-portrait.9.png" />
+    <gap:splash gap:density="hdpi" gap:platform="android" src="www/res/screen/android/screen-hdpi-portrait.9.png" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" src="www/res/screen/android/screen-xhdpi-portrait.9.png" />
+    <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/screen-iphone-portrait.png" width="320" />
+    <gap:splash gap:platform="ios" height="960" src="www/res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
+    <gap:splash gap:platform="ios" height="1136" src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" />
+    <gap:splash gap:platform="ios" height="1024" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
+    <gap:splash gap:platform="ios" height="768" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
+    <gap:splash gap:platform="ios" height="1334" src="www/res/screen/ios/screen-iphone-portrait-667h-2x.png" width="750" />
+    <gap:splash gap:platform="ios" height="2208" src="www/res/screen/ios/screen-iphone-portrait-736h-2x.png" width="1242" />
+    <gap:splash gap:platform="ios" height="1242" src="www/res/screen/ios/screen-iphone-landscape-736h-2x.png" width="2208" />
+    <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
+    <feature name="Cache">
+        <param name="ios-package" value="Cache" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
+    <feature name="YoikScreenOrientation">
+        <param name="ios-package" value="YoikScreenOrientation" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <feature name="Keyboard">
+        <param name="ios-package" onload="true" value="IonicKeyboard" />
+    </feature>
+    <feature name="Toast">
+        <param name="ios-package" value="Toast" />
+    </feature>
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
+    <preference name="CameraUsesGeolocation" value="false" />
+    <feature name="Contacts">
+        <param name="ios-package" value="CDVContacts" />
+    </feature>
+    <feature name="Globalization">
+        <param name="ios-package" value="CDVGlobalization" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="BarcodeScanner">
+        <param name="ios-package" value="CDVBarcodeScanner" />
+    </feature>
+</widget>

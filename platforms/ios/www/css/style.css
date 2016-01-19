@@ -1,0 +1,23 @@
+.uscan {
+	margin-top: 15%;
+}
+
+.myTest {
+	background-color: #DE0E1B;
+}
+
+div.centre {
+  	width: 200px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}

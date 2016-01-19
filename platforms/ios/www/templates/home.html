@@ -1,0 +1,16 @@
+<ion-view view-title="{{ 'APP_NAME' | translate | uppercase}}" cache-view="false">
+  <ion-content has-bouncing="false" has-header="true">
+	<div class="centre uscan">
+		<div class="item item-image">
+		   <img src="./img/logo.png">
+		</div>
+		<h1>{{ "UNIFACE" | translate | uppercase }}</h1>
+        <button class="button button-block button-stable" id="scanButton" ng-click="scanme()">{{ "SCANME" | translate }}</button>
+        <button class="button button-block button-stable" id="reloadButton" ng-click="reload()" ng-disabled="goDisable()">{{ "RELOAD" | translate }}</button>
+	</div>
+  </ion-content>
+  
+  <!-- <ion-footer-bar align-title="left" class="bar-light">
+    <p>To emulate browser back home on iOS, please shark your device</p>
+  </ion-footer-bar> -->
+</ion-view>

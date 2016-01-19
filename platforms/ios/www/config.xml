@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.uniface.client.previewer"
+        version   = "1.0.4"
+		android-versionCode=""
+		ios-CFBundleVersion=""
+        >
+
+    <name>Previewer</name> 
+    <description>This is a scanner app from Uniface for testing and debugging purpose</description>
+    <author href="http://www.uniface.com" email="Mobile@uniface.com">Uniface Mobile Team</author>
+
+	<!-- For more information about preferences see: -->
+	<!-- http://docs.build.phonegap.com/en_US/3.3.0/configuring_preferences.md.html#Preferences -->
+    <!--  Multi-Platform -->
+    <preference name="phonegap-version"      		value="4.1.2" />
+    <preference name="orientation"           		value="default" />
+	<preference name="fullscreen"             		value="false" />
+	
+	<!--  iOS Only -->
+	<preference name="DisallowOverscroll"           value="true" />
+    <preference name="target-device"				value="universal" />
+	<preference name="prerendered-icon"    			value="false" />
+	<preference name="detect-data-types"    		value="false" />
+	<preference name="exit-on-suspend"    			value="false" />
+	<preference name="deployment-target"    		value="7" />
+	<preference name="AutoHideSplashScreen" 		value="false" />
+	<preference name="BackupWebStorage"             value="local"/>
+
+	<!--  Android Only -->
+	<preference name="android-installLocation"    	value="auto" />
+	<preference name="android-windowSoftInputMode"	value="stateVisible|adjustResize" />
+	<preference name="SplashScreen" 				value="splash" />
+	<preference name="SplashScreenDelay"    		value="3000" />
+
+	<!-- The access element provides your app with access to resources on other domains   -->
+	<!-- http://docs.build.phonegap.com/en_US/3.3.0/configuring_access_elements.md.html#Access%20Elements -->
+    <access origin="*" subdomains="true" />
+	
+	<plugin name="cordova-plugin-whitelist" version="1" />
+	<allow-intent href="*" />	
+	<allow-navigation href="*" />	
+		
+	<!--  Target DSP (Main DSP)-->
+	<content src="index.html" />
+
+	
+	<gap:plugin name="org.apache.cordova.statusbar" />
+
+    <icon src="icon.png" />
+    <icon src="www/res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="www/res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="www/res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="www/res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
+	
+	
+    <icon src="www/res/icon/ios/icon-29.png"               gap:platform="ios"        width="29" height="29" />
+    <icon src="www/res/icon/ios/icon-29-2x.png"            gap:platform="ios"        width="58" height="58" />
+	<icon src="www/res/icon/ios/icon-40.png"               gap:platform="ios"        width="40" height="40" />
+	<icon src="www/res/icon/ios/icon-40-2x.png"            gap:platform="ios"        width="80" height="80" />
+	<icon src="www/res/icon/ios/icon-50.png"               gap:platform="ios"        width="50" height="50" />
+	<icon src="www/res/icon/ios/icon-50-2x.png"            gap:platform="ios"        width="100" height="100" />
+	<icon src="www/res/icon/ios/icon-57.png"               gap:platform="ios"        width="57" height="57" />
+	<icon src="www/res/icon/ios/icon-57-2x.png"            gap:platform="ios"        width="114" height="114" />
+	<icon src="www/res/icon/ios/icon-60.png"               gap:platform="ios"        width="60" height="60" />
+	<icon src="www/res/icon/ios/icon-60-2x.png"            gap:platform="ios"        width="120" height="120" />
+	<icon src="www/res/icon/ios/icon-60-3x.png"            gap:platform="ios"        width="180" height="180" />
+    <icon src="www/res/icon/ios/icon-72.png"               gap:platform="ios"        width="72" height="72" />
+	<icon src="www/res/icon/ios/icon-72-2x.png"            gap:platform="ios"        width="144" height="144" />
+	<icon src="www/res/icon/ios/icon-76.png"               gap:platform="ios"        width="76" height="76" />
+	<icon src="www/res/icon/ios/icon-76-2x.png"            gap:platform="ios"        width="152" height="152" />
+	<icon src="www/res/icon/ios/icon-80.png"               gap:platform="ios"        width="80" height="80" />
+	<icon src="www/res/icon/ios/icon-80-2x.png"            gap:platform="ios"        width="160" height="160" />
+	
+    <icon src="www/res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
+    <icon src="www/res/icon/windows-phone/icon-173-tile.png" gap:platform="winphone"   gap:role="background" />
+	
+    <gap:splash src="www/res/screen/android/screen-ldpi-portrait.9.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="www/res/screen/android/screen-mdpi-portrait.9.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="www/res/screen/android/screen-hdpi-portrait.9.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="www/res/screen/android/screen-xhdpi-portrait.9.png" gap:platform="android" gap:density="xhdpi" />
+	
+    <gap:splash src="www/res/screen/ios/screen-iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="www/res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
+	<gap:splash src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" gap:platform="ios"     width="640" height="1136" />
+    <gap:splash src="www/res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
+    <gap:splash src="www/res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
+	<gap:splash src="www/res/screen/ios/screen-iphone-portrait-667h-2x.png" gap:platform="ios"     width="750" height="1334" />
+	<gap:splash src="www/res/screen/ios/screen-iphone-portrait-736h-2x.png" gap:platform="ios"     width="1242" height="2208" />
+	<gap:splash src="www/res/screen/ios/screen-iphone-landscape-736h-2x.png" gap:platform="ios"     width="2208" height="1242" />
+    <gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
+	
+</widget>

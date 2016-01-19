@@ -1,0 +1,51 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.sharinglabs.cordova.plugin.clearCache": {
+            "PACKAGE_NAME": "com.uniface.client.previewer"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.uniface.client.previewer"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.uniface.client.previewer"
+        },
+        "cordova-plugin-screen-orientation": {
+            "PACKAGE_NAME": "com.uniface.client.previewer"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.uniface.client.previewer"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.uniface.client.previewer"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.uniface.client.previewer"
+        },
+        "nl.x-services.plugins.toast": {
+            "PACKAGE_NAME": "com.uniface.client.previewer"
+        },
+        "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "com.uniface.client.previewer"
+        },
+        "org.apache.cordova.contacts": {
+            "PACKAGE_NAME": "com.uniface.client.previewer"
+        },
+        "org.apache.cordova.globalization": {
+            "PACKAGE_NAME": "com.uniface.client.previewer"
+        },
+        "org.uniface.cordova.device": {
+            "PACKAGE_NAME": "com.uniface.client.previewer"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "com.uniface.client.previewer"
+        }
+    },
+    "dependent_plugins": {}
+}

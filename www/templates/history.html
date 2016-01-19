@@ -1,0 +1,15 @@
+<ion-view cache-view="false" view-title="{{ 'HISTORY' | translate }}">
+  <ion-content>
+    <!-- The list directive is great, but be sure to also checkout the collection repeat directive when scrolling through large lists -->
+
+    <ion-list show-delete="data.showDelete" show-reorder="data.showReorder">
+
+      <ion-item ng-repeat="item in items" 
+                item="item"
+                ng-click="goTo('{{item.id}}')" class="item-remove-animate" id="history-item">
+        {{ item.id }}
+      </ion-item>
+	  
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,15 @@
+<ion-view view-title="{{ 'BROWSE' | translate }}" cache-view="false">
+  <ion-content has-bouncing="false">
+  	<form ng-submit="goTo()">
+    	<div class="list">	  
+      	  <label class="item">
+		  	<label class="item-stacked-label">
+		    	<h2 class="input-label">{{ "ENTER_A_URL" | translate }}</h2>
+		    	<input type="text" placeholder="http://" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" ng-model="browserData.url" ng-init="reset()">
+		  	</label>
+        	<button class="button button-block button-positive" type="submit">{{ 'GO' | translate }}</button>
+      	  </label>
+    	</div>
+	</form>
+  </ion-content>
+</ion-view>
